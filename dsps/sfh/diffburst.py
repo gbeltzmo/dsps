@@ -7,8 +7,8 @@ from jax import numpy as jnp
 
 from ..utils import _inverse_sigmoid, _sigmoid, triweight_gaussian
 
-LGYR_PEAK_MIN = 5.0
-LGAGE_MAX = 9.0
+LGYR_PEAK_MIN = 4.0
+LGAGE_MAX = 10.0
 DLGAGE_MIN = 1.0
 LGYR_PEAK_MAX = LGAGE_MAX - DLGAGE_MIN
 
